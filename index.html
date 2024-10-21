@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="w-full h-screen overflow-hidden">
+    <div class="w-full h-screen absolute top-0 left-0 z-[2] text-white font-['Helvetica Now Display']"> 
+    <nav class="w-full flex justify-between items-center py-10 px-10">
+      <h3>Planets</h3>
+      <div class="flex gap-6">
+        <a href="text-sm">Home</a>
+        <a href="text-sm">About</a>
+        <a href="text-sm">Contact</a>
+      </div>
+    </nav>
+    <div class="absolute top-[15%] left-1/2 -translate-x-1/2 text-center font-['Bellina']">
+      <div class="w-full h-[6em] md:h-[9em] overflow-hidden">
+        <h1 class="h-full text-7xl md:text-9xl font-light tracking-tighter heading">Earth</h1>
+        <h1 class="h-full text-7xl md:text-9xl font-light tracking-tighter heading">Csilla</h1>
+        <h1 class="h-full text-7xl md:text-9xl font-light tracking-tighter heading">Venas</h1>
+        <h1 class="h-full text-7xl md:text-9xl font-light tracking-tighter heading">Volcanic</h1>
+      </div>
+      <p class="text-sm font-['Gilroy']">Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+    <div class="w-full h-px bg-gradient-to-r from-transparent via-white to-transparent mt-4"></div>
+    </div>
+  </div>
+    <canvas id="canvas"></canvas>
+  </div>
+  
+  <script type="module" src="main.js"></script>
+</body>
+</html>
